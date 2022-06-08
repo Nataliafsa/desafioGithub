@@ -1,4 +1,7 @@
-@import ¨variable¨;
+
+/* importo variables al header*/
+
+@import "base/_variable";
 
 header{
     background-color: aqua;
@@ -19,9 +22,7 @@ header{
                 a{
 
                     text-decoration:none;
-                    &:hover{
 
-                    }
                 }
             }
         }

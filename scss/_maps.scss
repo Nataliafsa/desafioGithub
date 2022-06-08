@@ -1,4 +1,7 @@
-$mapRedes: (facebook: red, instagram: blue, twitter: black;)
+
+/* agregando maps*/
+
+$mapRedes: (facebook: red, instagram: blue, twitter: black);
 @each $red,$color in $mapRedes {
     .#{$red} {
         color:$color;
