@@ -1,0 +1,33 @@
+@import "_variable";
+
+header {
+    background-color: aqua;
+
+
+
+    nav{
+        text-align:right;
+
+
+
+        ul{
+            color: black;
+            li{
+
+                list-style: none;
+
+                a{
+
+                    text-decoration:none;
+                    &:hover { 
+                        left: 10px;
+
+
+
+
+                    }
+                }
+            }
+        }
+    }
+}
